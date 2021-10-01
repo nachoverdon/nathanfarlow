@@ -72,7 +72,7 @@ def advance_game(key):
 def do_input(key):
     if key in KEYMAP:
         advance_game(key)
-        return redirect('https://github.com/nathanfarlow', code=302)
+        return redirect('https://github.com/nachoverdon/nathanfarlow', code=302)
     else:
         return 'invalid key', 400
 
